@@ -2,6 +2,7 @@
 #include"Circle.h"
 #include"Rectangle.h"
 int main() {
+	
 	IShape* iShape[2];
 	iShape[0] = new Circle;
 	iShape[1] = new Rectangle;
